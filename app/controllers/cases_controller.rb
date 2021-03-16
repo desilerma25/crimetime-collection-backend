@@ -1,11 +1,11 @@
 class CasesController < ApplicationController
-  # before_action :set_case, only: [:show, :update, :destroy]
+  before_action :set_case, only: [:show]
   before_action :set_category, only: [:index]
 
   # GET /cases
   def index
     # @cases = Case.all
-    @cases = @categories.cases
+    @cases = @category.cases
 
     render json: @cases
   end
@@ -43,9 +43,9 @@ class CasesController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    # def set_case
-    #   @case = Case.find(params[:id])
-    # end
+    def set_case
+      @case = Case.find(params[:id])
+    end
 
     def set_category
       @category = Category.find(params[:category_id])
