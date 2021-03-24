@@ -1,28 +1,31 @@
-# README
+# CrimeTime Collection
+Interest in true crime cases has increased over the years. Some look into cases to learn how the could/should react if they were in the same situation, some have a morbid interest and some want to know more about the human psyche. Whatever your reason maybe use CrimeTime Collection to learn more about a specific case. If you'd like to add a case to our database, simply add in the details and submit through our case submission form. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## CrimeTimeCollection JavaScript React/Redux frontend
 
-Things you may want to cover:
+# Link to frontend repo
+https://github.com/desilerma25/crimetime-collection-frontend.git
 
-* Ruby version
+## Video Demo
+https://youtu.be/kmHod-D9pug
 
-* System dependencies
+**To get this application started:**
+First and foremost run $bundle install to ensure all needed gems are installed. 
+To seed in API data run:
+$rails db:migrate
+$rails db:seed
 
-* Configuration
+To then start our backend server run
+$rails s
 
-* Database creation
+**Please refer to the frontend README for instruction on how to get that started.**
 
-* Database initialization
+**License:**
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+Details available here: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-* How to run the test suite
+**Contributors**
+If you would like to add to or collaborate on this program please email me at desi.lerma96@yahoo.com.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # crimetime-collection-backend
 
-Frontend Repo:
-https://github.com/desilerma25/crimetime-collection-frontend.git
