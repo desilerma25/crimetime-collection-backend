@@ -9,6 +9,9 @@ https://github.com/desilerma25/crimetime-collection-frontend.git
 ## Video Demo
 https://youtu.be/kmHod-D9pug
 
+## Site URL
+https://crimetime-collection.netlify.app/
+
 **To get this application started:**
 First and foremost run $bundle install to ensure all needed gems are installed. 
 To seed in API data run:
